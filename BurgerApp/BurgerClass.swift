@@ -13,4 +13,8 @@ class BurgerBoiz{
     enum burgerCook{
         case Well, Rare, Raw
     }
+    enum toppings{
+        case Tomato, Cheese, Onion, Lettuce, Pickles, Ketchup, Mustard
+    }
+    
 }
