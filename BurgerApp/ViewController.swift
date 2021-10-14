@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var burgSelecter: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +16,7 @@ class ViewController: UIViewController {
     }
   
     @IBAction func addBut(_ sender: Any) {
-        
+    
     }
     
     

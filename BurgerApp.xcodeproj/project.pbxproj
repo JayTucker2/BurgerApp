@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B904E64D27185FF500CC85A5 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B904E64C27185FF500CC85A5 /* ReceiptViewController.swift */; };
 		B92B2B0B270F208E00B42914 /* BurgerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B2B0A270F208E00B42914 /* BurgerClass.swift */; };
 		B92E0339270DCDD2007A9EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92E0338270DCDD2007A9EB9 /* AppDelegate.swift */; };
 		B92E033B270DCDD2007A9EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92E033A270DCDD2007A9EB9 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B904E64C27185FF500CC85A5 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		B92B2B0A270F208E00B42914 /* BurgerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerClass.swift; sourceTree = "<group>"; };
 		B92E0335270DCDD2007A9EB9 /* BurgerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92E0338270DCDD2007A9EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				B92E033C270DCDD2007A9EB9 /* ViewController.swift */,
 				B92B2B0A270F208E00B42914 /* BurgerClass.swift */,
 				B92E033E270DCDD2007A9EB9 /* Main.storyboard */,
+				B904E64C27185FF500CC85A5 /* ReceiptViewController.swift */,
 				B9D312B72710738E0067E066 /* SecondView.swift */,
 				B92E0344270DCDD3007A9EB9 /* Assets.xcassets */,
 				B92E0346270DCDD3007A9EB9 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				B92E033D270DCDD2007A9EB9 /* ViewController.swift in Sources */,
 				B92E0339270DCDD2007A9EB9 /* AppDelegate.swift in Sources */,
 				B92B2B0B270F208E00B42914 /* BurgerClass.swift in Sources */,
+				B904E64D27185FF500CC85A5 /* ReceiptViewController.swift in Sources */,
 				B92E0343270DCDD2007A9EB9 /* BurgerApp.xcdatamodeld in Sources */,
 				B92E033B270DCDD2007A9EB9 /* SceneDelegate.swift in Sources */,
 			);
