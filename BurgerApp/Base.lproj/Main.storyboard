@@ -60,6 +60,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="View Reciept"/>
                                 <connections>
+                                    <action selector="receiptBut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9mv-1J-QTc"/>
                                     <segue destination="z3W-QH-hY8" kind="show" id="Ck9-Ud-yrG"/>
                                 </connections>
                             </button>

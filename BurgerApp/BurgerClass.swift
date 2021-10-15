@@ -1,14 +1,24 @@
 import Foundation
+enum burgerType{
+    case cheesburger, hamburger, bigboiburg
+}
+enum burgerCook{
+    case well, rare, raw
+}
+enum toppings{
+    case tomato, cheese, onion, lettuce, pickles, ketchup, mustard, mayo
+}
 class BurgerBoiz{
-    enum burgerType{
-        case Cheesburger, Hamburger, BugerBombXL
-    }
-    enum burgerCook{
-        case well, Rare, Raw
-    }
-    enum toppings{
-        case Tomato, Cheese, Onion, Lettuce, Pickles, Ketchup, Mustard, Mayo
+   var receipt = ""
+    var type: burgerType
+    init(burger: burgerType) {
+        type = burger
     }
     
+    
+        
     }
+    
+    
+
 
