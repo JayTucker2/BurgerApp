@@ -8,10 +8,13 @@
 import UIKit
 
 class ReceiptViewController: UIViewController {
-
+    @IBOutlet weak var receiptLabel: UILabel!
+    var inc : String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        receiptLabel.text = inc
+        
         // Do any additional setup after loading the view.
     }
     

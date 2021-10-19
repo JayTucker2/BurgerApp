@@ -11,10 +11,13 @@ class BurgerBoiz{
     var price = 0.0
     var type: burgerType
     var rare: rarity
+  
     init(burger: burgerType, cooked: rarity) {
         type = burger
         rare = cooked
-        
+    }
+   
+    func getPrices()-> String{
         if type == .cheesburger {
             price += 2.00
             if rare == .well{
@@ -51,6 +54,10 @@ class BurgerBoiz{
                 receipt = "\(receipt)Raw, BigBoiBorg: $\(price) \n"
             }
         }
+        return receipt
+    }
+    func getTotal()-> Double{
+        return price
     }
         }
     
